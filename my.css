@@ -1,0 +1,280 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  overflow-x: auto;
+  display: flex;
+}
+
+section {
+  width: 100%;
+  height: 100%;
+  min-width: 100vw;
+  box-sizing: border-box;
+}
+
+.container_card {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+
+.section_padding {
+  padding: 4rem 7rem;
+}
+
+.text_uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1.582px;
+  font-family: Proxima Nova;
+  font-size: 20px;
+}
+
+.text_inside_any_card {
+  width: 20rem;
+}
+
+.inside_card_normal_para_text {
+  margin-top: 1.4rem;
+  color: #8b8b8b;
+  flex-shrink: 0;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.blue_title_underline {
+  text-transform: uppercase;
+  font-family: Cormorant;
+  color: #0b3662;
+  font-size: 23px;
+  margin: 8px 0px;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1.582px;
+}
+
+
+.blue_title_underline::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 2px;
+  background-color: red;
+  bottom: -12px;
+  left: 0;
+}
+
+.long_section {
+  width: 140%;
+  min-width: 140%;
+}
+
+.complete_container > img {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+}
+
+/*first section  style  */
+.first_div_below_text {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  font-size: 1.3rem;
+  font-family: Cormorant;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  width: 20%;
+  text-align: center;
+  letter-spacing: 1.133px;
+}
+
+.first_div_side_text {
+  position: absolute;
+  z-index: 10;
+  color: white;
+  top: 50%;
+  right: 3%;
+  transform: translateY(-50%);
+  text-transform: uppercase;
+}
+
+/*  second section style  */
+.second_section_inside_card {
+  background-color: #e5e5e5;
+  padding: 3rem 4rem;
+}
+
+.second_container_first_image {
+  width: 250px;
+  height: 170px;
+  position: absolute;
+  bottom: 3rem;
+  flex-shrink: 0;
+}
+
+.second_container_second_image {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  z-index: 15;
+  transform: translateY(-50%);
+  width: 20%;
+}
+
+/* fourth section style  */
+.fourth_section_inside_div {
+  width: 45%;
+  height: 90%;
+  position: relative;
+}
+
+.fourth_section_inside_card {
+  position: absolute;
+
+  padding: 3rem 3rem;
+
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 700px;
+height: 284px;
+flex-shrink: 0;
+background: #E5E5E5;
+}
+
+.fourth_section_first_image {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  width: 50%;
+}
+
+.fourth_section_second_image {
+  width: 20%;
+  height: 25%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.fourth_section_other_info_text {
+  position: absolute;
+  left: 3rem;
+  bottom: 0;
+}
+
+.fourth_section_third_image {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  width: 18%;
+}
+
+.fourth_section_fourth_image {
+  position: absolute;
+  right: 0;
+  width: 26%;
+  top: 0;
+  height: 100%;
+}
+
+.right_float {
+  width: 50%;
+}
+
+/* fifth section style  */
+.fifth_section_first_image {
+  position: absolute;
+  top: 3rem;
+  left: 6rem;
+  width: 15%;
+ 
+}
+
+.fifth_section_other_info_text {
+  position: absolute;
+  left: 6rem;
+  top: 60%;
+  width: 10%;
+}
+
+.fifth_section_second_image {
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  width: 14%;
+}
+
+.fifth_section_third_image {
+  position: absolute;
+  left: 44%;
+  width: 40%;
+}
+
+.fifth_section_fourth_image {
+  position: absolute;
+  left: 65%;
+  top: 50%;
+  width: 30%;
+  transform: translateY(-50%);
+}
+
+.inside_card_normal_para_text1 {
+  margin-top: 1.4rem;
+  color: #8a8a8a;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.inside_card_normal_para_text2 {
+  margin-top: 1.4rem;
+  color: #8a8a8a;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 0.5px;
+  width: 540px;
+  flex-shrink: 0;
+}
+
+.inside_card_normal_para_text3 {
+  margin-top: 1.4rem;
+  color: #8a8a8a;
+  font-family: Proxima Nova;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 0.5px;
+  width: 340px;
+  height: 300px;
+  flex-shrink: 0;
+}
