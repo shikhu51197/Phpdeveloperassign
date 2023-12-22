@@ -2,10 +2,14 @@
 #  💻PROJECT NAME - 🌐Rambagh Polo Trunk Project💻
 
 
+⭕I have added this in-app icon whose name is Trunks Assignment.
+
+![6912922](https://github.com/shikhu51197/Phpdeveloperassign/assets/107506646/5e6d4a73-994e-47a1-a348-ba0b2602bd10)
+
 > 
 <br>
 
-[![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
+[![Deployed App Vercel Link](https://img.shields.io/badge/Deployed_App_Vercel_Link-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://6585d8660888fbfd7006a9be--genuine-tiramisu-0864d6.netlify.app/)
 
 🖇️The Rambagh Polo Trunk website is a visually captivating online platform designed for desktop users. The project is characterized by a horizontal format and incorporates specific elements and GIFs to create an immersive and engaging user experience.
 
@@ -50,6 +54,7 @@ Key Points to Consider:
 
 ---
 # Project Structure
+
 The project follows a modular structure with different sections, each fulfilling a specific purpose. Below is a brief overview of the sections:
 
 💫1. Introduction (First Section)
@@ -73,14 +78,20 @@ Text: "Handle."
 
 ---
 # Implementation
+
 💫To implement the horizontal scrollbar, ensure that the .container class has overflow-x: auto;. Additionally, incorporate the GIFs "Full Screen - Polo GIF.gif" and "HANDLE GIF POLO TRUNK.gif" as specified in the design.
 
 ---
 # Instructions
+
 💻Clone the repository or download the project files.
+
 💻Open the index.html file in a web browser to view the website.
+
 💻Ensure the design adheres to the specifications mentioned above.
+
 💻Implement the horizontal scrollbar as required.
+
 💻Incorporate the provided GIFs in their designated sections.
 
 
@@ -98,9 +109,4 @@ graph TD;
 ---
 
 
-
-            <h1 align="center">✨Thank You✨</h1>
-
-
-
-                               --------------------------------------------------⭕THANK YOU⭕------------------------------------------------
+--------------------------------------------------⭕THANK YOU⭕------------------------------------------------
